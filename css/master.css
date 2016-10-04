@@ -10,20 +10,22 @@ body{
 .headerRow {
     background-color: #ff0000;
     width: 100%;
-    height: 2rem;
+    height: 3.5rem;
     display: flex;
 }
 
-.headerColumn {
+.headerColumnBottom {
     background-color: #ff0000;
     width: 33.333%;
     height: 100%;
-    padding-top: .5em;
-    padding-bottom: .5em;
-    align-self: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
 }
 
-#home{
+.headerButtons{
     width: auto;
     height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
